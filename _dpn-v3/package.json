@@ -1,3 +1,18 @@
 {
-
+  "name": "dpn-v3",
+  "description": "derekperuo.net version 3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dperuo/dperuo.github.io/tree/master/_dpn-v3"
+  },
+  "author": "Derek Peruo <derek@derekperuo.net>",
+  "license": "MIT"
 }
