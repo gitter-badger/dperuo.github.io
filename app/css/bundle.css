@@ -271,6 +271,9 @@ strong {
     color: white;
     transition: all 0 ease; }
 
+.btn--pair-with-me {
+  background-color: #0c88b0; }
+
 .btn--remote {
   top: 1in; }
   @media (max-width: 65rem) {
@@ -300,13 +303,24 @@ strong {
     transition: all 0 ease; }
 
 .btn--for-hire-nope {
-  background-color: #9f102e; }
+  background-color: #9e102e; }
   .btn--for-hire-nope:hover {
     background-color: transparent;
-    color: #9f102e;
-    border: 2px solid #9f102e; }
+    color: #9e102e;
+    border: 2px solid #9e102e; }
   .btn--for-hire-nope:active {
-    background-color: #9f102e;
+    background-color: #9e102e;
+    color: white;
+    transition: all 0 ease; }
+
+.btn--for-hire-maybe {
+  background-color: #df7a16; }
+  .btn--for-hire-maybe:hover {
+    background-color: transparent;
+    color: #df7a16;
+    border: 2px solid #df7a16; }
+  .btn--for-hire-maybe:active {
+    background-color: #df7a16;
     color: white;
     transition: all 0 ease; }
 
@@ -351,7 +365,10 @@ strong {
   background-color: #3f990f; }
 
 .calendar__month--nope {
-  background-color: #9f102e; }
+  background-color: #9e102e; }
+
+.calendar__month--maybe {
+  background-color: #df7a16; }
 
 .calendar__month--text {
   cursor: help; }

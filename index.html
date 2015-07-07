@@ -11,7 +11,7 @@
   <link rel="dns-prefetch" href="//fb.me/">
   <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com/">
 
-  <title>Derek Peruo | Front-End Developer</title>
+  <title>Derek Peruo | Front-End Architecture and Development</title>
 
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="app/css/bundle.css" rel="stylesheet" type="text/css">
@@ -29,9 +29,9 @@
   <div class="availability" web-only>
     <!-- Inspired by Harry Roberts: http://csswizardry.com/work -->
 
-    <a class="[ btn  btn--for-hire-nope  btn--for-hire ]" href="mailto:derek@derekperuo.net">
+    <a class="[ btn  btn--for-hire-maybe  btn--for-hire ]" href="mailto:derek@derekperuo.net">
         <!-- <h5 web-only>I'm <strong>accepting new projects</strong><br hide-xs hide-sm hide-md hide-lg/> for Q3, 2015.</h5> -->
-        <h5 web-only>No new projects<br hide-xs hide-sm hide-md hide-lg/> until Q3, 2015.</h5>
+        <h5 web-only>Considering projects<br hide-xs hide-sm hide-md hide-lg/> for Q3, 2015.</h5>
     </a>
 
     <div class="calendar">
@@ -51,9 +51,9 @@
           <td class="[ calendar__month  calendar__month--bar  calendar__month--nope ]" data-month="A"></td>
           <td class="[ calendar__month  calendar__month--bar  calendar__month--nope ]" data-month="M"></td>
           <td class="[ calendar__month  calendar__month--bar  calendar__month--nope ]" data-month="J"></td>
-          <td class="[ calendar__month  calendar__month--bar  calendar__month--yep ]" data-month="J"></td>
-          <td class="[ calendar__month  calendar__month--bar  calendar__month--yep ]" data-month="A"></td>
-          <td class="[ calendar__month  calendar__month--bar  calendar__month--yep ]" data-month="S"></td>
+          <td class="[ calendar__month  calendar__month--bar  calendar__month--maybe ]" data-month="J"></td>
+          <td class="[ calendar__month  calendar__month--bar  calendar__month--maybe ]" data-month="A"></td>
+          <td class="[ calendar__month  calendar__month--bar  calendar__month--maybe ]" data-month="S"></td>
           <td class="[ calendar__month  calendar__month--bar  calendar__month--yep ]" data-month="O"></td>
           <td class="[ calendar__month  calendar__month--bar  calendar__month--yep ]" data-month="N"></td>
           <td class="[ calendar__month  calendar__month--bar  calendar__month--yep ]" data-month="D"></td>
@@ -64,12 +64,12 @@
           <td class="[ calendar__month  calendar__month--text ]" title="January - Not available">J</td>
           <td class="[ calendar__month  calendar__month--text ]" title="February - Not available">F</td>
           <td class="[ calendar__month  calendar__month--text ]" title="March - Not available">M</td>
-          <td class="[ calendar__month  calendar__month--text  calendar__month--current ]" title="April - Not available">A</td>
+          <td class="[ calendar__month  calendar__month--text ]" title="April - Not available">A</td>
           <td class="[ calendar__month  calendar__month--text ]" title="May - Not available">M</td>
           <td class="[ calendar__month  calendar__month--text ]" title="June - Not available">J</td>
-          <td class="[ calendar__month  calendar__month--text ]" title="July - Available">J</td>
-          <td class="[ calendar__month  calendar__month--text ]" title="August - Available">A</td>
-          <td class="[ calendar__month  calendar__month--text ]" title="Sepember - Available">S</td>
+          <td class="[ calendar__month  calendar__month--text  calendar__month--current ]" title="July - Limited availability">J</td>
+          <td class="[ calendar__month  calendar__month--text ]" title="August - Limited availability">A</td>
+          <td class="[ calendar__month  calendar__month--text ]" title="Sepember - Limited availability">S</td>
           <td class="[ calendar__month  calendar__month--text ]" title="October - Available">O</td>
           <td class="[ calendar__month  calendar__month--text ]" title="November - Available">N</td>
           <td class="[ calendar__month  calendar__month--text ]" title="December - Available">D</td>
@@ -81,15 +81,15 @@
   <div class="header" ng-controller="headerCtrl as header">
 
     <div class="row">
-      <div class="five col">
+      <div class="six col">
         <a class="header__link" href="/">
           <h1 class="header__name">Derek Peruo</h1>
-          <h4 class="header__role">Front-End Developer</h4>
+          <h4 class="header__role">Front-End Architecture and Development</h4>
           <h5 class="header__location">New York, NY, USA</h5>
         </a>
       </div>
 
-      <div  class="five col text-right">
+      <div  class="four col text-right">
         <p class="header__contact">+1 646 820 8246</p>
         <p class="header__contact">derek@derekperuo.net</p>
         <a class="header__contact" href="/playbook/">derekperuo.net/playbook</a>
@@ -115,7 +115,8 @@
       <div class="row section__entry">
         <div class="ten col text-left">
           <ul class="skill-list">
-            <li class="skill-list__item"><a href="https://psdtowp.net/css-preprocessors.html#derek-peruo">PSD to WP</a></li>
+            <li class="skill-list__item"><a href="https://psdtowp.net/css-preprocessors.html">CSS Preprocessors</a></li>
+            <li class="skill-list__item"><a href="https://psdtowp.net/best-programming-language.html">Programming Languages</a></li>
           </ul>
         </div>
       </div>
@@ -169,18 +170,13 @@
       </div>
     </div>
 
-    <div class="section" used-for="love-remote" print-only>
-      <h4 class="section__heading">I <i class="fa fa-heart"></i> REMOTE</h4>
-      <div class="row section__entry">
-        <div class="ten col text-left">
-          <a href="https://vimeo.com/76063825">https://vimeo.com/76063825</a>
-        </div>
-      </div>
-    </div>
-
-    <a class="[ btn--remote  btn ]" href="https://vimeo.com/76063825" web-only>
-      <span>I <i class="fa fa-heart"></i> Remote</span>
+    <a class="[ btn  btn--pair-with-me ]" href="mailto:derek@derekperuo.net?subject=Pair%20program%20with%20me!" title="Pair program with me!" web-only>
+      <img src="http://www.pairprogramwith.me/assets/badge.svg" alt="Pair program with me!" />
     </a>
+
+    <!-- <a class="[ btn--remote  btn ]" href="https://vimeo.com/76063825" web-only> -->
+      <!-- <span>I <i class="fa fa-heart"></i> Remote</span> -->
+    <!-- </a> -->
   </div>
   <script src="app/js/rwdjs.js"></script>
 </body>
